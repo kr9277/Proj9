@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Credits_Activity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="352dp"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:text="Credits Activity: "
+        android:textColor="#673AB7"
+        android:textSize="34sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="346dp"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:text="Hellow Hellow :)))))"
+        android:textSize="34sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+</LinearLayout>
